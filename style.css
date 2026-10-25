@@ -1,0 +1,37 @@
+.body{
+    background: rgb(50,50,50);
+}
+.black{
+    width: 100px;
+    height: 100px;
+    background: black;
+}
+.white{
+    width: 100px;
+    height: 100px;
+    background: white;
+}
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    color: white ;
+}
+.container{
+    display: flex;
+}
+.board{
+    margin: 0 auto;
+    width: fit-content;
+    position: relative;
+}
+.piece{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.tiles {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(8, var(--size));
+  grid-template-rows: repeat(8, var(--size));
+}
