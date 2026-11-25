@@ -1,4 +1,4 @@
-if (window.location.href == 'file:///d%3A/Users/SETUP%20GAME/Documents/Chess/playing_page.html'){
+if (true){
     let pw1,pw2,pw3,pw4,pw5,pw6,pw7,pw8;
     let list = [pw1,pw2,pw3,pw4,pw5,pw6,pw7,pw8];
     for(i=0;i<8;i++){
