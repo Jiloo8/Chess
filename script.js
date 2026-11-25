@@ -1,4 +1,4 @@
-if (window.location.href == 'file:///d%3A/Users/SETUP%20GAME/Documents/Chess/playing_page.html'){
+if (true){
     alasql(`CREATE TABLE match (
         id int primary key,
         playerw1 CHAR,
