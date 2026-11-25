@@ -1,12 +1,4 @@
 if (true){
-    alasql(`CREATE TABLE match (
-        id int primary key,
-        playerw1 CHAR,
-        playerw2 CHAR)`)
-    alasql(`INSERT INTO match VALUES (1,'Jiloo8','Solo')`)
-    console.log(alasql(`SELECT * FROM match`))
-    let server = await (await fetch('server.txt')).text()
-    console.log(server)
     let pw1,pw2,pw3,pw4,pw5,pw6,pw7,pw8;
     let list = [pw1,pw2,pw3,pw4,pw5,pw6,pw7,pw8];
     let i;
